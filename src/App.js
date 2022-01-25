@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ShowCases from './ShowCases';
+import Customers from './Customers';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <div className="Title">
+          <div className="TopBox">
+            <h1>
+              <span>THEMIP</span>
+            </h1>
+            <p>We build the best product you'll ever see, no need for anything else!</p>
+          </div>
+        </div>
       </header>
+      <main>
+        <ShowCases />
+        <Customers />
+      </main>
     </div>
   );
 }
