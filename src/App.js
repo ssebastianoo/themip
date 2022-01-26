@@ -19,6 +19,11 @@ function App() {
       <main>
         <ShowCases />
         <Customers />
+        <div className="JoinUs">
+          <div className="JoinUsBox">
+            <h2>Join Us</h2>
+          </div>
+        </div>
       </main>
     </div>
   );

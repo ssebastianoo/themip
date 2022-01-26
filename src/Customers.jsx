@@ -13,8 +13,8 @@ function Customer(props) {
 function Customers() {
     return (
         <div className="Customers">
-            <Customer title="Amazing" text="Best company i've ever worked with" author="Jezz Bezos"/>
-            <Customer title="Wonderful" text="These guys are great" author="Sundar Pichai"/>
+            <Customer title="Amazing" text="Best company i've ever worked with" author="Jezz Befos"/>
+            <Customer title="Wonderful" text="These guys are great" author="Supdar Nichai"/>
         </div>
     )
 }
